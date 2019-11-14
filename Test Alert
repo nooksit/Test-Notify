@@ -10,7 +10,7 @@ request({
     bearer: 'Ea2oBZDeM7hMzLn0cyLy6cQpPNaTl9XZ6DoBu7tMeQB', //token
   },
   form: {
-    message: 'ทดสอบ', //ข้อความที่จะส่ง
+    message: 'ทดสอบจาก github', //ข้อความที่จะส่ง
   },
 }, (err, httpResponse, body) => {
   if (err) {
